@@ -4,3 +4,9 @@
   align-items: $align;
   flex-direction: $direction;
 }
+
+@mixin FontStyles($size, $color, $weight) {
+  font-size: $size;
+  color: $color
+  font-weight: $weight;
+}
