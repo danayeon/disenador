@@ -6,10 +6,10 @@
 }
 
 @mixin FontStyles($size, $color, $weight, $style, $height, $space) {
-  font-size: $size;
+  font-size: $size; //px
   color: $color;
   font-weight: $weight;
   font-style: $style;
-  line-height: $height;
-  letter-spacing: $space;
+  line-height: $height; //単位なし
+  letter-spacing: $space; //em
 }
