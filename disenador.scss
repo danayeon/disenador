@@ -5,11 +5,12 @@
   flex-direction: $direction;
 }
 
-@mixin FontStyles($size, $color, $weight, $style, $height, $space) {
+@mixin FontStyles($size, $color, $weight, $style, $height, $space, $decoration) {
   font-size: $size; //px
   color: $color;
   font-weight: $weight;
   font-style: $style;
   line-height: $height; //単位なし
   letter-spacing: $space; //em
+  text-decoration: $decoration;
 }
