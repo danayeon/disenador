@@ -5,7 +5,7 @@
   flex-direction: $direction;
 }
 
-@mixin FontStyles($size, $color, $weight, $style, $height, $space, $decoration) {
+@mixin FontStyles($size, $color, $weight, $style, $height, $space, $decoration, $family) {
   font-size: $size; //px
   color: $color;
   font-weight: $weight;
@@ -13,4 +13,5 @@
   line-height: $height; //単位なし
   letter-spacing: $space; //em
   text-decoration: $decoration;
+  font-family: $family;
 }
