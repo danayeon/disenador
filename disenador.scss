@@ -5,8 +5,11 @@
   flex-direction: $direction;
 }
 
-@mixin FontStyles($size, $color, $weight) {
+@mixin FontStyles($size, $color, $weight, $style, $height, $space) {
   font-size: $size;
-  color: $color
+  color: $color;
   font-weight: $weight;
+  font-style: $style;
+  line-height: $height;
+  letter-spacing: $space;
 }
